@@ -37,6 +37,51 @@ body {
 }
 
 
+/* Splash Screen Styling */
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; 
+    background-size: 55px 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease; 
+}
+
+.splash-content {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border: 4px #FB44FF solid;
+    border-radius: 24px;
+}
+
+.splash-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#enter-btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #29C6FF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#enter-btn:hover {
+    background-color: #5a99f9;
+}
+
+
 /* nav bars */
 #navLi1, 
 #navLi2, 
