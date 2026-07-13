@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #ffffff;
+    background-size: 55px 55px;
+    background-image: 
+        linear-gradient(to right, #D4F3FE 4px, transparent 1px),
+        linear-gradient(to bottom, #D4F3FE 4px, transparent 1px);
+    position: relative;
+    min-height: 100vh;
+}
+
+
+/* media stuff */
+@media only screen and (max-width: 1256px) {
+    #navLi5, 
+    #navLi5Img {
+        display: none;
+    }
+}
+
+/* nav bars */
+#navLi1, 
+#navLi2, 
+#navLi3 {
+    float: right;
+    color: black
+}
+
+#navLi4Img {
+    max-width: 70px;
+    max-height: 70px;;
+}
+
+#navLi5Img {
+    max-width: 100px;
+    max-height: 70px;
+}
+
+#navLi5 {
+    font-size: 30px;
+    color: #29C6FF
+}
+
+.navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 40px;
+}
+
+.navLi, a {
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute
+}
+
+#toothpaste {
+    width: 100%;
+    min-width: 800px;
+    display: block;
+    bottom: 0;
+
+    /* margin-top: -50px; */
+
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
+}
+
+#footText {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+    min-width: 500px;
+}
